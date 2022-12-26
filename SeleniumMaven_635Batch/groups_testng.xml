@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GroupsSuite">
+	<groups>
+		<run>
+			<include name="retesting"></include>
+			<include name="sanity"></include>
+			<exclude name="regression"></exclude>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testng.GruopsSample1" />
+			<class name="testng.GruopsSample2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
