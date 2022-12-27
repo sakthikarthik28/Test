@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T16:08:32 CST" name="MyGroupsSuite" finished-at="2022-12-27T16:08:32 CST" duration-ms="46">
+    <groups>
+      <group name="Retesting">
+        <method signature="Groups.tc03()[pri:0, instance:testng.Groups@1e1a0406]" name="tc03" class="testng.Groups"/>
+      </group> <!-- Retesting -->
+      <group name="Regression">
+        <method signature="Groups.tc02()[pri:0, instance:testng.Groups@1e1a0406]" name="tc02" class="testng.Groups"/>
+      </group> <!-- Regression -->
+      <group name="Retesting, sanity">
+        <method signature="Groups.tc05()[pri:0, instance:testng.Groups@1e1a0406]" name="tc05" class="testng.Groups"/>
+      </group> <!-- Retesting, sanity -->
+    </groups>
+    <test started-at="2022-12-27T16:08:32 CST" name="GroupsTest" finished-at="2022-12-27T16:08:32 CST" duration-ms="46">
+      <class name="testng.Groups">
+        <test-method signature="tc02()[pri:0, instance:testng.Groups@1e1a0406]" started-at="2022-12-27T16:08:32 CST" name="tc02" finished-at="2022-12-27T16:08:32 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method signature="tc03()[pri:0, instance:testng.Groups@1e1a0406]" started-at="2022-12-27T16:08:32 CST" name="tc03" finished-at="2022-12-27T16:08:32 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method signature="tc05()[pri:0, instance:testng.Groups@1e1a0406]" started-at="2022-12-27T16:08:32 CST" name="tc05" finished-at="2022-12-27T16:08:32 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05 -->
+      </class> <!-- testng.Groups -->
+    </test> <!-- GroupsTest -->
+  </suite> <!-- MyGroupsSuite -->
+</testng-results>
